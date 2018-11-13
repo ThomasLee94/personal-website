@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 15px; 
+}
+/* ****** */
+/* Navbar */
+/* ****** */
+
+.nav-bar {
+    z-index: 10;
+    width: 100%;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, .3);
+  }
+  
+.nav-links {
+    height: 45px;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btn {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    margin-left: 2rem;
+    transition: all 200ms;
+}
+
+.nav-btn:hover {
+    transform: scale(1.1);
+}
+
+.nav-btn.logo {
+    transition: all 300ms;
+}
+
+.nav-btn.logo:hover {
+    transform: scale(1.1) rotate(5deg) translateX(10px);
+}
+
+.nav-btn.right {
+    margin-left: 80%;
+    transition: all 300ms;
+}
+
+.nav-btn.right:hover {
+    transform: scale(1.1) rotate(3deg);
+}
+
+/* ********* */
+/* Portfolio */
+/* ********* */
+
+.portfolio{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.completed{
+    font-size: 30px;
+}
+
+.portfolio-btn:hover {
+    transform: scale(1.1);
+}
+
+.portfolio-btn.logo {
+    transition: all 300ms;
+}
+
+.portfolio-btn.logo:hover {
+    transform: scale(1.1) rotate(5deg) translateX(10px);
+}
+
+.portfolio-btn.right {
+    margin-left: 80%;
+    transition: all 300ms;
+}
+
+.portfolio-btn.right:hover {
+    transform: scale(1.1) rotate(3deg);
+}
+
+
+/* ************** */
+/* Footer/Contact */
+/* ************** */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+  
+.footer-links {
+    font-size: 35px;
+    height: 45px;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-btn {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    margin-left: 2rem;
+    transition: all 200ms;
+}
+
+.footer-btn:hover {
+    transform: scale(1.1);
+}
+
+.footer-btn.logo {
+    transition: all 300ms;
+}
+
+.footer-btn.logo:hover {
+    transform: scale(1.1) rotate(5deg) translateX(10px);
+}
+
+.footer-btn.right {
+    margin-left: 80%;
+    transition: all 300ms;
+}
+
+.footer-btn.right:hover {
+    transform: scale(1.1) rotate(3deg);
