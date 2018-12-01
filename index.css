@@ -23,14 +23,18 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 0;
+    list-style: none;
 }
 
 .nav-btn {
     text-decoration: none;
     list-style-type: none;
     color: black;
-    margin-left: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     transition: all 200ms;
+    display: block;
 }
 
 .nav-btn:hover {
@@ -100,6 +104,13 @@ body {
     font-size: 30px;
 }
 
+/* **************** */
+/* Padding for Divs */
+/* **************** */
+
+.section-box{
+    padding-bottom: 3rem;
+}
 
 /* ************** */
 /* Footer/Contact */
@@ -133,7 +144,8 @@ body {
     text-decoration: none;
     list-style-type: none;
     color: black;
-    margin-left: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     transition: all 200ms;
 }
 
